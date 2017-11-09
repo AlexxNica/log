@@ -30,7 +30,7 @@
   ],
   "main": "./dist/index.js",
   "scripts": {
-    "build": "tsc ./src/index.ts"
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/node": "^8.0.50",
