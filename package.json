@@ -1,0 +1,39 @@
+{
+  "name": "@alexxnica/log",
+  "description": "Little log utility based on verbose levels (-vvv...)",
+  "version": "0.0.1",
+  "homepage": "https://alexxnica.github.io/",
+  "license": "MIT",
+  "author": {
+    "name": "Alexandre Nicastro",
+    "email": "kryndex@gmail.com",
+    "url": "https://alexxnica.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexxnica/log.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexxnica/log/issues"
+  },
+  "contributors": [
+    {
+      "name": "Alexandre Nicastro",
+      "email": "kryndex@gmail.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Alexandre Nicastro",
+      "email": "kryndex@gmail.com"
+    }
+  ],
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.50",
+    "typescript": "^2.7.0-dev.20171109"
+  }
+}
