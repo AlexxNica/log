@@ -6,17 +6,17 @@ const log = {
     return this.verboseLevel >= 0 && console.error(message);
   },
   warn: function(message: string) {
-    return this.verboseLevel >= 0 && console.warn(message);
+    return this.verboseLevel >= 1 && console.warn(message);
   },
   info: function(message: string) {
-    return this.verboseLevel >= 1 && console.info(message);
+    return this.verboseLevel >= 2 && console.info(message);
   },
   debug: function(message: string) {
     // @TODO: change from .log to .debug.
-    return this.verboseLevel >= 2 && console.log(message);
+    return this.verboseLevel >= 3 && console.log(message);
   },
   log: function(message: string) {
-    return this.verboseLevel >= 0 && console.log(message);
+    return this.verboseLevel >= 4 && console.log(message);
   },
 };
 

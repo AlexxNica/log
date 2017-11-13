@@ -1,7 +1,7 @@
 {
   "name": "@alexxnica/log",
   "description": "Little log utility based on verbose levels (-vvv...)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://alexxnica.github.io/",
   "license": "MIT",
   "author": {
